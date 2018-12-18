@@ -12,6 +12,8 @@ public class Main {
                 .withIsReady(true)
                 .withPrix(15)
                 .build();
+        Voiture voiture2 = builderDeVoiture.withMarque("lololol").build();
         System.out.println(voiture);
+        System.out.println(voiture2); //attention cela affecte à cette deuxieme voiture les vars d'avant si on ne les modifie pas !!!!
     }
 }

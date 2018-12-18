@@ -1,5 +1,5 @@
 package Visitor;
 
-public abstract class Voiture implements IVisitable {
+abstract class Voiture implements IVisitable {
 
 }

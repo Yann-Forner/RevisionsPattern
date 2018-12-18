@@ -10,7 +10,7 @@ public class Main {
        test(r,visiteurConcret);
        test(c,visiteurConcret);
     }
-    public static void test(Voiture voiture,Visiteur v){
+    private static void test(Voiture voiture, Visiteur v){
         voiture.accepter(v);
     }
 }
